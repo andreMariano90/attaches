@@ -124,6 +124,13 @@ export default class AttachesTool {
   }
 
   /**
+   * Allows Readonly support
+   */
+  static get isReadOnlySupported() {
+    return true;
+  }
+
+  /**
    * Tool's CSS classes
    */
   get CSS() {
